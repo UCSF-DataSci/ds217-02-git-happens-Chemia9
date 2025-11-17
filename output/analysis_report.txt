@@ -1,12 +1,11 @@
-Basic Analysis:
- Data:
- {'name': 'Bob', 'age': '23', 'grade': '91', 'subject': 'Math'}
-{'name': 'Sara', 'age': '21', 'grade': '94', 'subject': 'Chemistry'}
-{'name': 'Anna', 'age': '21', 'grade': '88', 'subject': 'Chemistry'}
-{'name': 'Daniel', 'age': '20', 'grade': '82', 'subject': 'Biology'}
-{'name': 'Kevin', 'age': '22', 'grade': '98', 'subject': 'Biology'}
-{'name': 'Tina', 'age': '20', 'grade': '80', 'subject': 'Math'}
-{'name': 'Hannah', 'age': '22', 'grade': '95', 'subject': 'Math'}
-{'name': 'Justin', 'age': '20', 'grade': '78', 'subject': 'Chemistry'}
- Average Grade = 88.2
- Number of Math Students: 3
+Advanced Analysis Results:
+ Average Grade: 88.2
+ Min Grade: 78
+ Max Grade: 98
+
+Grade Distribution:
+ A: Count = 4, Percentage = 50.0%
+ B: Count = 3, Percentage = 37.5%
+ C: Count = 1, Percentage = 12.5%
+ D: Count = 0, Percentage = 0.0%
+ F: Count = 0, Percentage = 0.0%
