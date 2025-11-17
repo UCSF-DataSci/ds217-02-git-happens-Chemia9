@@ -65,7 +65,7 @@ def generate_report(file):
     """generate report"""
 
     students = load_students(file)
-    report = f"Basic Analysis:\n Data:\n {"\n".join(str(student) for student in students)}\n Average Grade = {calculate_average_grade(students):.1f}\n Number of Math Students: {count_math_students(students)}\n"
+    report = f"Basic Analysis:\n Data:\n {'\n'.join(str(student) for student in students)}\n Average Grade = {calculate_average_grade(students):.1f}\n Number of Math Students: {count_math_students(students)}\n"
 
     return report
 
