@@ -1,0 +1,11 @@
+Advanced Analysis Results:
+ Average Grade: 88.2
+ Min Grade: 78
+ Max Grade: 98
+
+Grade Distribution:
+ A: Count = 4, Percentage = 50.0%
+ B: Count = 3, Percentage = 37.5%
+ C: Count = 1, Percentage = 12.5%
+ D: Count = 0, Percentage = 0.0%
+ F: Count = 0, Percentage = 0.0%
