@@ -1,0 +1,5 @@
+Basic Analysis:
+ Data:
+ [{'name': 'Bob', 'age': '23', 'grade': '91', 'subject': 'Math'}, {'name': 'Sara', 'age': '21', 'grade': '94', 'subject': 'Chemistry'}, {'name': 'Anna', 'age': '21', 'grade': '88', 'subject': 'Chemistry'}, {'name': 'Daniel', 'age': '20', 'grade': '82', 'subject': 'Biology'}, {'name': 'Kevin', 'age': '22', 'grade': '98', 'subject': 'Biology'}, {'name': 'Tina', 'age': '20', 'grade': '80', 'subject': 'Math'}, {'name': 'Hannah', 'age': '22', 'grade': '95', 'subject': 'Math'}, {'name': 'Justin', 'age': '20', 'grade': '78', 'subject': 'Chemistry'}]
+ Average Grade = 88.2
+ Number of Math Students: 3

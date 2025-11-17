@@ -14,9 +14,9 @@ def load_students(filename):
     with open(filename, 'r') as file:
         lines = file.readlines()[1:] # read lines as list and exclude first line
         
-    student_data = list() # create empty list
+    student_data = [] # create empty list
     for line in lines: # create a dictionary of datapoints for each line
-        data = line.strip.split (',')
+        data = line.strip().split (',')
         student = {
             'name' : data[0],
             'age' : data[1],
@@ -63,7 +63,9 @@ def count_math_students (students):
 
 def generate_report(file):
     """generate report"""
-    report = f"Basic Analysis:\n Data:\n {load_students(file)}\n Average Grade = {calculate_average_grade(load_students(file)):.1f}\n Number of Math Students: {count_math_students(load_students(file))}\n"
+
+    students = load_students(file)
+    report = f"Basic Analysis:\n Data:\n {students}\n Average Grade = {calculate_average_grade(students):.1f}\n Number of Math Students: {count_math_students(students)}\n"
 
     return report
 
@@ -89,4 +91,5 @@ def main():
 
     save_report(report, "output/analysis_report.txt")
 
-    
+if __name__ == "__main__":
+    main()
